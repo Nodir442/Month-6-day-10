@@ -32,7 +32,7 @@ export const ShopSingle = () => {
         </p>
         <div className="w-[658px]">
           <h3 className="font-roboto font-semibold text-primary text-[40px]">
-            Health Pistachios
+            {data.name}
           </h3>
           <div className="flex mb-3">
             <StarIcon width={20} height={20} />
